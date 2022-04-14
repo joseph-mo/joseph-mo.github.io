@@ -10,6 +10,10 @@ const ProjectDetail = () => {
   const params = useParams();
   let projectObj = {};
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   switch (params.projectName) {
     case 'awareOfMe':
       projectObj = projectData.find((obj) => obj.projectName === 'awareOfMe');

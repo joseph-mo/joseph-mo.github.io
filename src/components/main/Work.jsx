@@ -21,7 +21,7 @@ const Work = () => {
       </div>
 
       <div className="intro-more">
-        <a className="intro-more__link" href="#projects">
+        <a className="intro-more__link" href="/#projects">
           <button className="intro-more__btn">
             <span className="intro-more__btn-text">Work</span>
           </button>
