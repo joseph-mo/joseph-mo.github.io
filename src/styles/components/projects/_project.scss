@@ -1,0 +1,217 @@
+@import '../../abstracts/placeholders.scss';
+@import '../../abstracts/variables.scss';
+
+// ProjectDetail.jsx - Parent component for project page
+.project {
+  max-width: 100vw;
+
+  &__progress-bar {
+    background: #aed6dc;
+    transform-origin: top left;
+    transform: scale(0, 0);
+    height: 6px;
+
+    &-container {
+      position: fixed;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.05);
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 6px;
+    }
+  }
+
+  &-header {
+    padding: 5vh 0 30px 10vw;
+    visibility: hidden;
+    animation: delay-project-content 1s ease 0.4s forwards;
+
+    &__name {
+      font-size: 48px;
+      font-weight: 600;
+    }
+    &__roles {
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.5);
+      font-weight: 500;
+    }
+  }
+
+  &-section-dividers {
+    width: 50vw;
+    margin: 50px auto;
+  }
+
+  &__back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ffa473;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    outline-offset: 4px;
+    font-size: 50px;
+
+    &--arrow {
+      display: block;
+      padding: 8px 16px;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      background: #ffbd99;
+      color: white;
+      transform: translateY(-6px);
+      font-weight: 500;
+    }
+  }
+
+  &__back-to-top:active &__back-to-top--arrow {
+    transform: translateY(-2px);
+  }
+}
+
+// ProjectIntro.jsx - Understand section
+.project-center {
+  text-align: center;
+}
+.project-intro {
+  padding-top: 5vh;
+  display: inline-block;
+  text-align: left;
+  visibility: hidden;
+  animation: delay-project-content 1s ease 0.8s forwards;
+
+  &__header {
+    font-weight: 600;
+  }
+
+  &__section {
+    @extend %project-intro-section;
+
+    &-body {
+      line-height: 32px;
+      color: #6e6d73;
+    }
+  }
+
+  &__affinity {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 20vw;
+      max-width: 500px;
+      min-width: 100px;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
+    }
+  }
+
+  &__persona {
+    max-width: 800px;
+    min-width: 350px;
+    width: 60vw;
+    padding: 10px;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
+  }
+}
+
+// ProjectDesign.jsx - Design section
+.project-design {
+  animation: delay-project-content 1s ease 0.8s forwards;
+  visibility: hidden;
+  display: inline-block;
+
+  &__header {
+    font-weight: 600;
+    padding-left: 16vw;
+  }
+
+  &__section {
+    @extend %project-design-section;
+    padding-left: 16vw;
+
+    &-body {
+      line-height: 32px;
+      color: #6e6d73;
+    }
+  }
+
+  // Sketches section
+  &__sketches {
+    width: 90vw;
+    padding-left: 10vw;
+
+    &-row {
+      display: flex;
+      justify-content: center;
+    }
+
+    &-img {
+      padding: 25px;
+      width: 35vw;
+      max-width: 800px;
+      min-width: 400px;
+      border-radius: 12px;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
+
+      &--caption {
+        margin-bottom: 50px;
+        font-size: 0.8rem;
+        text-align: center;
+        color: #212529;
+      }
+    }
+  }
+
+  // Wireframes section
+  &__wireframes {
+    padding-left: 15vw;
+    &-img {
+      padding: 25px 10px;
+      width: 60vw;
+      min-width: 350px;
+      max-width: 1000px;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
+
+      &--caption {
+        display: block;
+        font-size: 0.8rem;
+        text-align: center;
+        max-width: 1000px;
+      }
+    }
+  }
+
+  // Mockups section
+  &__mockups {
+    &-row {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0;
+    }
+  }
+}
+
+// ProjectImplementation.jsx
+.project-implementation {
+  padding-bottom: 200px;
+  &__header {
+    padding-left: 15vw;
+  }
+}
+
+/*****************************************************************
+*                 keyframe animation defintiions                 *
+******************************************************************/
+
+@keyframes delay-project-content {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}

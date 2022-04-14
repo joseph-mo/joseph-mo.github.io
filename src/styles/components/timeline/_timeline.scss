@@ -1,0 +1,63 @@
+@import '../../abstracts/placeholders.scss';
+@import '../../abstracts/variables.scss';
+
+// Timeline.jsx
+.timeline {
+  margin: 200px auto;
+  background-color: $darker-back-color;
+  border-radius: 18px;
+  padding: 30px;
+  max-width: 80vw;
+
+  &-text {
+    @extend %text-format-salmon-600;
+    font-size: 28px;
+    padding: 30px;
+  }
+
+  &-container {
+    &__row-one {
+      &--col {
+        @extend %about-timeline-containers;
+        background-color: $color-palette-four;
+      }
+    }
+    &__row-two {
+      &--col {
+        @extend %about-timeline-containers;
+        background-color: $color-palette-three;
+      }
+    }
+    &__row-three {
+      &--col {
+        @extend %about-timeline-containers;
+        background-color: $color-palette-two;
+      }
+    }
+    &__row-four {
+      &--col {
+        @extend %about-timeline-containers;
+        background-color: $color-palette-one;
+      }
+    }
+  }
+  //  TimelineContent.jsx
+  &-content {
+    &__title {
+      margin-top: 8px;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    &__role {
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    &__dates {
+      font-size: 16px;
+      margin-top: 20px;
+      float: right;
+    }
+  }
+}

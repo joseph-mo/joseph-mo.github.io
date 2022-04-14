@@ -1,0 +1,58 @@
+@import '../../abstracts/placeholders.scss';
+
+// About.jsx
+.about {
+  display: flex;
+  justify-content: center;
+  min-height: 60vh;
+  padding-top: 50px;
+
+  &-image {
+    width: 500px;
+    height: 500px;
+    visibility: hidden;
+    animation: about-content 1s ease 0.3s forwards;
+  }
+
+  &-text {
+    padding-left: 50px;
+    max-width: 650px;
+
+    &__title {
+      @extend %text-format-salmon-600;
+      font-size: 36px;
+      visibility: hidden;
+      animation: about-content 1s ease 0.3s forwards;
+    }
+
+    &__description {
+      @extend %text-format-salmon-400;
+      font-size: 20px;
+      visibility: hidden;
+      animation: about-content 1s ease 0.3s forwards;
+    }
+
+    &__work {
+      margin-top: 20px;
+    }
+
+    &__personal {
+      margin-top: 20px;
+    }
+  }
+}
+
+/*****************************************************************
+*                 keyframe animation defintiions                 *
+******************************************************************/
+
+@keyframes about-content {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}

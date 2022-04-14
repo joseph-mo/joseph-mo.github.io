@@ -1,0 +1,125 @@
+@media screen and (max-width: 1200px) {
+  .about {
+    display: block;
+    text-align: center;
+    min-height: 60vh;
+
+    &-text {
+      max-width: 550px;
+      margin: 25px auto;
+      text-align: left;
+      padding-left: 30px;
+
+      &__title {
+        font-size: 30px;
+      }
+
+      &__description {
+        font-size: 16px;
+      }
+      &__work {
+        margin-top: 25px;
+      }
+
+      &__personal {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  .nav-bar {
+    &__list {
+      padding-right: 20px;
+
+      &-item {
+        padding-right: 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .intro {
+    &-text {
+      max-width: 400px;
+
+      &__header {
+        font-size: 72px;
+        line-height: 82px;
+      }
+
+      &__description {
+        font-size: 18px;
+      }
+    }
+
+    &-wave {
+      font-size: 175px;
+    }
+  }
+
+  .project-design {
+    &__sketches {
+      padding-left: 5vw;
+
+      &-row {
+        display: block;
+      }
+      &-img {
+        display: block;
+        margin: 0 auto;
+        width: 75vw;
+      }
+    }
+  }
+
+  .footer {
+    max-width: 500px;
+
+    &-text {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .intro {
+    display: block;
+    text-align: center;
+
+    &-text {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    &-wave {
+      padding-left: 0;
+    }
+  }
+
+  .about {
+    &-image {
+      width: 400px;
+      height: 400px;
+    }
+
+    &-text {
+      max-width: 450px;
+      padding-left: 10px;
+    }
+  }
+
+  .project-design {
+    &__wireframes {
+      padding-left: 10vw;
+    }
+  }
+
+  .footer {
+    max-width: 400px;
+
+    &-text {
+      font-size: 17px;
+    }
+  }
+}
