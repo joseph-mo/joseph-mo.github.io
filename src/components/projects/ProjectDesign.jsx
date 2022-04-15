@@ -18,7 +18,9 @@ const ProjectDesign = (props) => {
       {/* Sketching Section */}
       <div className="project-design__section">
         <h4 className="project-design__section-title">Sketching</h4>
-        <p className="project-design__section-body">{sketching.body}</p>
+        <p className="project-design__section-body">
+          <u>Process:</u> {sketching.body}
+        </p>
       </div>
 
       {/* Sketch Images */}

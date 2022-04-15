@@ -5,23 +5,6 @@
 .project {
   max-width: 100vw;
 
-  &__progress-bar {
-    background: #aed6dc;
-    transform-origin: top left;
-    transform: scale(0, 0);
-    height: 6px;
-
-    &-container {
-      position: fixed;
-      z-index: 10;
-      background: rgba(255, 255, 255, 0.05);
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 6px;
-    }
-  }
-
   &-header {
     padding: 5vh 0 30px 10vw;
     visibility: hidden;
@@ -32,9 +15,8 @@
       font-weight: 600;
     }
     &__roles {
-      font-size: 20px;
+      font-size: 16px;
       color: rgba(0, 0, 0, 0.5);
-      font-weight: 500;
     }
   }
 

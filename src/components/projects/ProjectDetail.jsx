@@ -40,7 +40,7 @@ const ProjectDetail = () => {
       <hr className="project-section-dividers" />
       <ProjectDesign projectObj={projectObj} />
       <hr className="project-section-dividers" />
-      <ProjectImplementation projectObj={projectObj} />
+      {/* <ProjectImplementation projectObj={projectObj} /> */}
     </div>
   );
 };

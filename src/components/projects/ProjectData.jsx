@@ -2,7 +2,7 @@ export const projectData = [
   {
     id: '1',
     projectName: 'awareOfMe',
-    roles: 'Research • UI/UX Design • Developer',
+    roles: 'Researcher • Designer • Developer',
     year: 2022,
     context:
       'Through remote work, I naturally found myself spending more time alone. This allowed me to reflect on different \
@@ -33,9 +33,6 @@ export const projectData = [
           ['No quantitative analysis done to provide insights into progress.'],
         ],
       ],
-      statement:
-        'Based off the above four issues, the problem I decided to address was the lack of awareness and inexperience \
-        with regards to habit tracking, goal setting and continuous reflection.',
     },
     persona: false,
     research: {
@@ -66,7 +63,7 @@ export const projectData = [
       },
     },
     sketching: {
-      body: 'Process: Brainstorming / Ideation ➡️ High level sketches ➡️ Paper prototypes ➡️ Iterate based off feedback',
+      body: 'Brainstorming / Ideation ➡️ High level sketches ➡️ Paper prototypes ➡️ Iterate based off feedback',
     },
     wireframes: {
       body: 'In Progress...',
@@ -104,12 +101,6 @@ export const projectData = [
           positive reviews through word of mouth, they rarely found themselves committing to plans on attending.',
         ],
       ],
-      statement:
-        'Initially, we set out to build an app focused solely on helping community members physically travel to the Farmers Market. \
-        However, after re-visiting our interviews, we realized that the underlying problem was not transportation. Instead, it was lack \
-        of motivation. We concluded that those who made it to the market must have had some intrinsic motivations to overcome the \
-        barriers of traveling there. Hence, the problem we decided to address was the lack of motivation users experienced relative to \
-        their willingness to attend the Farmers Market.',
     },
     persona: true,
     app: {

@@ -7,19 +7,19 @@ import affinityMisc from '../../images/affinity-misc.png';
 import personaCard from '../../images/persona.png';
 
 const ProjectIntro = (props) => {
-  const { context, interviews, problem, research, persona, app } =
+  const { projectName, context, interviews, problem, research, persona, app } =
     props.projectObj;
 
   const printMainProblems = () => {
     return (
       <>
-        <ul>
+        <ol>
           {problem.items.map((item, ind) => (
             <li className="project-intro__section-body" key={ind}>
-              <b>{item[0]}</b> - {item[1]}
+              <u>{item[0]}</u> - {item[1]}
             </li>
           ))}
-        </ul>
+        </ol>
       </>
     );
   };
@@ -88,7 +88,32 @@ const ProjectIntro = (props) => {
           <p className="project-intro__section-body">{problem.body}</p>
           {printMainProblems()}
           <h5>Final Problem Statement: </h5>
-          <p className="project-intro__section-body">{problem.statement}</p>
+          {projectName === 'awareOfMe' ? (
+            <p className="project-intro__section-body">
+              Based off the above four issues, the problem I decided to address
+              was the{' '}
+              <b>
+                lack of awareness and inexperience with regards to habit
+                tracking, goal setting and continuous reflection.
+              </b>
+            </p>
+          ) : projectName === 'Market Buddy' ? (
+            <p className="project-intro__section-body">
+              Initially, we set out to build an app focused solely on helping
+              community members physically travel to the Farmers Market.
+              However, after re-visiting our interviews, we realized that the
+              underlying problem was not transportation. Instead, it was lack of
+              motivation. We concluded that those who made it to the market must
+              have had some intrinsic motivations to overcome the barriers of
+              traveling there. Hence, the problem we decided to address was the{' '}
+              <b>
+                lack of motivation users experienced relative to their
+                willingness to attend the Farmers Market.
+              </b>
+            </p>
+          ) : (
+            <p className="project-intro__section-body">{problem.statement}</p>
+          )}
         </div>
 
         {/* Research Section */}
@@ -97,7 +122,9 @@ const ProjectIntro = (props) => {
             <h4 className="project-intro__section-title">Market Research</h4>
             <p className="project-intro__section-body">{research.body}</p>
             <div className="project-intro__section-body">
-              <h6>Main Insights / UI Inspiration:</h6>
+              <h6 className="text-decoration-underline">
+                Main Insights / UI Inspiration:
+              </h6>
               {printResearchInsights()}
             </div>
           </div>
@@ -117,11 +144,15 @@ const ProjectIntro = (props) => {
             The App
           </h4>
           <div className="project-intro__section-body">
-            <h6>Approach</h6>
+            <h6 className="text-decoration-underline">Approach:</h6>
             <p>{app.approach}</p>
-            <h6>Behavior trying to influence</h6>
+            <h6 className="text-decoration-underline">
+              Behavior trying to influence:
+            </h6>
             <p>{app.behaviors}</p>
-            <h6>Obstacles to target behavior</h6>
+            <h6 className="text-decoration-underline">
+              Obstacles to target behavior:
+            </h6>
             <p className="margin-bottom-0">{app.obstacles.body}</p>
             {printKeyObstacles()}
           </div>

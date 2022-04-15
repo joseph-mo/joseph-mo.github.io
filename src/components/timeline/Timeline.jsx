@@ -16,8 +16,8 @@ const Timeline = () => {
           >
             <TimelineContent
               title="UBS"
-              role="Developer"
-              dates="20 - Present"
+              role="Software Engineer"
+              dates="August 2020 - Present"
             />
           </Col>
         </Row>
@@ -26,7 +26,11 @@ const Timeline = () => {
             className="timeline-container__row-one--col"
             lg={{ span: 2, offset: 6 }}
           >
-            <TimelineContent title="UBS" role="Intern" dates="19" />
+            <TimelineContent
+              title="UBS"
+              role="SWE Intern"
+              dates="Summer 2019"
+            />
           </Col>
         </Row>
         <Row className="timeline-container__row-two">
@@ -34,7 +38,11 @@ const Timeline = () => {
             className="timeline-container__row-two--col"
             lg={{ span: 2, offset: 4 }}
           >
-            <TimelineContent title="Cogni" role="Intern" dates="18" />
+            <TimelineContent
+              title="Cogni"
+              role="Web Dev. Intern"
+              dates="Summer 2018"
+            />
           </Col>
         </Row>
         <Row className="timeline-container__row-three">
@@ -44,8 +52,8 @@ const Timeline = () => {
           >
             <TimelineContent
               title="Cornell University"
-              role="Student"
-              dates="17-20"
+              role="Student (Information Science)"
+              dates="Fall 2017 - Spring 2020"
             />
           </Col>
         </Row>
@@ -53,8 +61,8 @@ const Timeline = () => {
           <Col className="timeline-container__row-four--col" lg={{ span: 3 }}>
             <TimelineContent
               title="Queens College"
-              role="Student"
-              dates="16-17"
+              role="Student (Undeclared)"
+              dates="Fall 2016 - Spring 2017"
             />
           </Col>
         </Row>

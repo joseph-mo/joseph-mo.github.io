@@ -5,8 +5,6 @@
 .intro {
   @extend %display-flex-items-center;
   justify-content: center;
-  min-height: 40vh;
-  padding-top: 80px;
 
   &-text {
     animation: intro-slide-left 0.8s;
@@ -15,8 +13,8 @@
 
     &__header {
       @extend %text-format-salmon-600;
-      font-size: 84px;
-      line-height: 95px;
+      font-size: 64px;
+      line-height: 80px;
     }
 
     &__description {
@@ -34,7 +32,7 @@
 
   &-more {
     min-height: 40vh;
-    padding-top: 75px;
+    padding-top: 50px;
     text-align: center;
     scroll-behavior: smooth;
 
