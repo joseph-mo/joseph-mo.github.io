@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5e91466f.css",
-    "main.js": "/static/js/main.36aa9be2.js",
+    "main.js": "/static/js/main.09888b9a.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/wireframe2.png": "/static/media/wireframe2.183af29a436c2560a143.png",
     "static/media/wireframe1_big.png": "/static/media/wireframe1_big.cb89418e8a19ca14c79a.png",
@@ -26,11 +26,11 @@
     "static/media/sass-logo.png": "/static/media/sass-logo.c90aaebcf0a60ffcf7fb.png",
     "index.html": "/index.html",
     "main.5e91466f.css.map": "/static/css/main.5e91466f.css.map",
-    "main.36aa9be2.js.map": "/static/js/main.36aa9be2.js.map",
+    "main.09888b9a.js.map": "/static/js/main.09888b9a.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e91466f.css",
-    "static/js/main.36aa9be2.js"
+    "static/js/main.09888b9a.js"
   ]
 }
