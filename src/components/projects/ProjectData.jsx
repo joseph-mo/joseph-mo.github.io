@@ -72,7 +72,7 @@ export const projectData = [
   {
     id: '2',
     projectName: 'Market Buddy',
-    roles: 'Research • UI/UX Design • Development ',
+    roles: 'Researcher • Designer • Developer',
     year: 2019,
     context:
       "Within the town of Ithaca, there is a popular Farmer's Market that both locals and students go to for \
