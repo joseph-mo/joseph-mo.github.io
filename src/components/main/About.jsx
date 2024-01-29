@@ -2,7 +2,6 @@ import React from 'react';
 import Timeline from '../timeline/Timeline';
 import headshot from '../../images/headshot.png';
 import Footer from './Footer';
-import Interests from '../interests/Interests';
 import ProgressElements from './ProgressElements';
 
 const About = () => {
@@ -27,14 +26,13 @@ const About = () => {
             <div className="about-text__personal">
               Outside of work you'll find me spending quality time with friends
               & family, cooking all the delicious recipes I find on the internet
-              and getting better at pushing, picking up or squatting heavy
+              and getting better at pushing, picking up and squatting heavy
               things.
             </div>
           </div>
         </div>
       </div>
       <Timeline />
-      {/* <Interests /> */}
       <Footer />
     </div>
   );
