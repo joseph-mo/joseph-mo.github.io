@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../images/logo.png';
-// import logo from '../../images/logo-thick.png';
-// import logo from '../../images/logo-extra-thick.png';
 
 const Navigation = () => {
   return (
