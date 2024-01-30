@@ -6,17 +6,20 @@
   justify-content: center;
   min-height: 60vh;
   padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 
-  &-image {
-    width: 500px;
-    height: 500px;
-    visibility: hidden;
-    animation: about-content 1s ease 0.3s forwards;
-  }
+  // &-image {`
+  //   width: 50vh;
+  //   height: 40vh;
+  //   visibility: hidden;
+  //   border-radius: 100%;
+  //   animation: about-content 1s ease 0.3s forwards;
+  // }
 
   &-text {
-    padding-left: 50px;
-    max-width: 650px;
+    // padding-left: 50px;
+    // max-width: 650px;
 
     &__title {
       @extend %text-format-salmon-600;
