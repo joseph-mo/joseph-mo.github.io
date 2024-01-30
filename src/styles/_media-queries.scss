@@ -1,33 +1,23 @@
 @media screen and (max-width: 1200px) {
   .about {
-    display: block;
-    text-align: center;
-    min-height: 60vh;
-
+    padding: 50px;
     &-text {
-      max-width: 550px;
-      margin: 25px auto;
-      text-align: left;
-      padding-left: 30px;
-
       &__title {
-        font-size: 30px;
+        font-size: 40px;
       }
 
       &__description {
         font-size: 16px;
       }
-      &__work {
-        margin-top: 25px;
-      }
-
-      &__personal {
-        margin-top: 25px;
-      }
     }
   }
 
+  .timeline {
+    margin: 50px 30px 50px;
+  }
+
   .nav-bar {
+    padding: 40px 50px 0px 50px;
     &__list {
       padding-right: 20px;
 
@@ -94,18 +84,6 @@
 
     &-wave {
       padding-left: 0;
-    }
-  }
-
-  .about {
-    &-image {
-      width: 400px;
-      height: 400px;
-    }
-
-    &-text {
-      max-width: 450px;
-      padding-left: 10px;
     }
   }
 

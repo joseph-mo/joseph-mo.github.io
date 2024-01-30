@@ -6,60 +6,35 @@ import Timeline from '../timeline/Timeline';
 
 const Work = () => {
   return (
-    <>
+    <div className="home">
       <ProgressElements />
       <div className="about">
         <div className="about-text">
           <div className="about-text__title">
-            Hi, I’m Joe. A Front-end Developer working at UBS on Core Financial
-            Advising Products.
+            Hi, I’m Joe. A frontend software engineer based in Queens, New York.
           </div>
           <div className="about-text__description">
             <div className="about-text__work">
-              I've been at UBS for a little over a year and a half now. During
-              my first year, I was working on an Equities Order Management
-              System within the Investment Bank. Recently, I have moved over to
-              the Wealth Management Division where I have rekindled with my
-              excitement of working on the front-end side of applications.
+              Most recently, I've been with Level, a company committed to
+              simplifying and providing clarity in utilizing employee benefits.
+              I've contributed to Level's <u>internal tooling application</u>{' '}
+              (Admin app) and the <u>employer-facing dashboard</u> (Employer
+              Dashboard). Additionally, my newfound interest in{' '}
+              <u>design systems</u> has led me to make valuable contributions to
+              Level’s <u>component library</u>.
             </div>
             <div className="about-text__personal">
               Outside of work you'll find me spending quality time with friends
-              & family, cooking all the delicious recipes I find on the internet
-              and getting better at pushing, picking up and squatting heavy
-              things.
+              & family, trying out new recipes, in the CrossFit gym, reading, or
+              indulging in whatever catches my eye on Netflix.
             </div>
           </div>
         </div>
       </div>
-
-      {/* <div className="intro">
-        <div className="intro-text">
-          <div className="intro-text__header">
-            Hi, I'm Joe. A Problem Solver.
-          </div>
-          <div className="intro-text__description">
-            I'm also a front-end developer with a deep appreciation for clean,
-            accessible design
-          </div>
-        </div>
-        <span className="intro-wave">👋</span>
-      </div> */}
-      {/* <div className="intro-more">
-        <a className="intro-more__link" href="/#projects">
-          <button className="intro-more__btn">
-            <span className="intro-more__btn-text">Work</span>
-          </button>
-        </a>
-        <div className="intro-more__arrow">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div> */}
       <Timeline />
       <Projects />
       <Footer />
-    </>
+    </div>
   );
 };
 

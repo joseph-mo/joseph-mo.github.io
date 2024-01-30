@@ -3,41 +3,54 @@
 
 // Timeline.jsx
 .timeline {
-  margin: 200px auto;
+  margin: 50px 70px 100px;
   background-color: $darker-back-color;
   border-radius: 18px;
   padding: 30px;
-  max-width: 80vw;
 
   &-text {
     @extend %text-format-salmon-600;
-    font-size: 28px;
-    padding: 30px;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-bottom: 20px;
   }
 
   &-container {
+    padding: 20px;
     &__row-one {
       &--col {
         @extend %about-timeline-containers;
-        background-color: $color-palette-four;
+        background-color: $color-palette-one;
       }
     }
     &__row-two {
       &--col {
         @extend %about-timeline-containers;
-        background-color: $color-palette-three;
+        background-color: $color-palette-two;
       }
     }
     &__row-three {
       &--col {
         @extend %about-timeline-containers;
-        background-color: $color-palette-two;
+        background-color: $color-palette-three;
       }
     }
     &__row-four {
       &--col {
         @extend %about-timeline-containers;
-        background-color: $color-palette-one;
+        background-color: $color-palette-four;
+      }
+    }
+    &__row-five {
+      &--col {
+        @extend %about-timeline-containers;
+        background-color: $color-palette-four;
+      }
+    }
+    &__row-six {
+      &--col {
+        @extend %about-timeline-containers;
+        background-color: $color-palette-five;
       }
     }
   }
@@ -45,23 +58,22 @@
   &-content {
     &__title {
       margin-top: 8px;
-      font-weight: 500;
-      font-size: 18px;
+      font-weight: 700;
+      font-size: 15px;
     }
 
     &__role {
       font-size: 12px;
       font-style: italic;
       color: rgba(0, 0, 0, 0.5);
-      white-space: nowrap;
-      overflow: hidden;
     }
 
     &__dates {
-      font-size: 14px;
+      font-size: 12px;
+      font-weight: 500;
       margin-top: 20px;
       float: right;
-      color: rgba(0, 0, 0, 0.7);
+      color: rgba(0, 0, 0, 0.6);
     }
   }
 }

@@ -7,10 +7,10 @@ const Projects = () => {
   return (
     <div id="projects" className="projects">
       <Link className="projects-link" to="/projects/awareOfMe">
-        <img className="projects-first" src={awareOfMeThumbnail} />
+        <img className="projects-image" src={awareOfMeThumbnail} />
       </Link>
       <Link className="projects-link" to="/projects/market-buddy">
-        <img className="projects-second" src={marketThumbnail} />
+        <img className="projects-image" src={marketThumbnail} />
       </Link>
     </div>
   );
