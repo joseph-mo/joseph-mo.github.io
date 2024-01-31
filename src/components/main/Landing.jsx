@@ -4,9 +4,9 @@ import Footer from './Footer';
 import ProgressElements from './ProgressElements';
 import Timeline from '../timeline/Timeline';
 
-const Work = () => {
+const Landing = () => {
   return (
-    <div className="home">
+    <div className="landing">
       <ProgressElements />
       <div className="about">
         <div className="about-text">
@@ -38,4 +38,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Landing;
