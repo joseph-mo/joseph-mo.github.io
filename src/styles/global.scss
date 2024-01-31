@@ -1,0 +1,10 @@
+body {
+  background-color: #fefaf8;
+  font-family: 'Montserrat';
+}
+
+@import './components/all';
+
+@import './abstracts/all';
+
+@import './media-queries.scss';
