@@ -22,38 +22,4 @@
     height: 40px;
     border-radius: 100%;
   }
-
-  &__list {
-    display: flex;
-    list-style: none;
-    padding-right: 50px;
-
-    &-item {
-      @extend %text-format-salmon;
-      font-size: 18px;
-      text-decoration: none;
-      padding-right: 50px;
-      display: inline-block;
-      position: relative;
-    }
-
-    &-item::before {
-      content: '';
-      position: absolute;
-      width: 55%;
-      height: 2px;
-      bottom: 0;
-      background-color: #fa5c5c;
-      transform: scaleX(0);
-      transition: transform 0.3s ease;
-    }
-
-    &-item:hover::before {
-      transform: scaleX(1);
-    }
-
-    &-item:hover {
-      color: #fa9b9b;
-    }
-  }
 }
