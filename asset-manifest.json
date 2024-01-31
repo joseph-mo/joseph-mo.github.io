@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67c4ff13.css",
+    "main.js": "/static/js/main.c857b742.js",
+    "static/js/787.61f74e33.chunk.js": "/static/js/787.61f74e33.chunk.js",
+    "static/media/wireframe2.png": "/static/media/wireframe2.183af29a436c2560a143.png",
+    "static/media/wireframe1_big.png": "/static/media/wireframe1_big.cb89418e8a19ca14c79a.png",
+    "static/media/affinity.png": "/static/media/affinity.b37982c412d5d4c40e25.png",
+    "static/media/goals_flow.JPG": "/static/media/goals_flow.6fc8167899bcbca4998d.JPG",
+    "static/media/progress_flow.JPG": "/static/media/progress_flow.7c6dd0a1276bd22e766c.JPG",
+    "static/media/habits_flow.JPG": "/static/media/habits_flow.c66d8acd4226bdf3dca2.JPG",
+    "static/media/reflections_flow.JPG": "/static/media/reflections_flow.a09ca7ac7c2672a2f452.JPG",
+    "static/media/market-thumbnail.png": "/static/media/market-thumbnail.f768ea411b1131053ac3.png",
+    "static/media/affinity-barriers.png": "/static/media/affinity-barriers.c9f285ae0a3f93c354de.png",
+    "static/media/affinity-whole.png": "/static/media/affinity-whole.0e38a6cff8687f9d732d.png",
+    "static/media/affinity-motivations.png": "/static/media/affinity-motivations.082db06a4abf0f945f02.png",
+    "static/media/aware-thumbnail.jpg": "/static/media/aware-thumbnail.e107b37eab2429c6186f.jpg",
+    "static/media/affinity-misc.png": "/static/media/affinity-misc.ca49219586c5103686d7.png",
+    "static/media/persona.png": "/static/media/persona.7bc432ca28b0819a2435.png",
+    "static/media/headshot.jpg": "/static/media/headshot.24058d3baa07ab6bfad0.jpg",
+    "index.html": "/index.html",
+    "main.67c4ff13.css.map": "/static/css/main.67c4ff13.css.map",
+    "main.c857b742.js.map": "/static/js/main.c857b742.js.map",
+    "787.61f74e33.chunk.js.map": "/static/js/787.61f74e33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c4ff13.css",
+    "static/js/main.c857b742.js"
+  ]
+}
