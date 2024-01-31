@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+/*   Typography-related   */
+%text-format-salmon {
+  color: #fd8787;
+}
+
+%text-format-salmon-400 {
+  color: $primary-color;
+  font-weight: 400;
+}
+
+%text-format-salmon-600 {
+  color: $primary-color;
+  font-weight: 600;
+}
+
+%text-format-secondary-400 {
+  color: $secondary-color;
+  font-weight: 400;
+}
+
+%text-format-secondary-600 {
+  color: $secondary-color;
+  font-weight: 600;
+}
+
+/* Alignment-related */
+%display-flex-items-center {
+  display: flex;
+  align-items: center;
+}
+
+/* Timeline component */
+%about-timeline-containers {
+  height: 104px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+/* Project components */
+%project-intro-section {
+  width: 65vw;
+  margin-top: 25px;
+}
+
+%project-design-section {
+  width: 65vw;
+  margin-top: 25px;
+}
