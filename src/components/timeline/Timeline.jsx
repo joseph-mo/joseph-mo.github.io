@@ -57,7 +57,7 @@ const Timeline = () => {
           <Col className="timeline-container__row-one--col">
             <TimelineContent
               title="Queens College"
-              role="Student (Undeclared)"
+              role="Student"
               dates="Fall 2016 - Spring 2017"
             />
           </Col>

@@ -9,7 +9,7 @@ const Footer = () => {
       <hr className="footer-divider" />
       <div className="footer-links">
         <a className="footer-mail" href="mailto:jjm492@cornell.edu">
-          Shoot me a{' '}
+          Send me an{' '}
           <img className="footer-mail__icon" src={mail} alt="Mail icon" />
         </a>
         <a

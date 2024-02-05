@@ -17,11 +17,18 @@ const Landing = () => {
             <div className="about-text__work">
               Most recently, I've been with Level, a company committed to
               simplifying and providing clarity in utilizing employee benefits.
-              I've contributed to Level's <u>internal tooling application</u>{' '}
-              (Admin app) and the <u>employer-facing dashboard</u> (Employer
-              Dashboard). Additionally, my newfound interest in{' '}
-              <u>design systems</u> has led me to make valuable contributions to
-              Level’s <u>component library</u>.
+              I've contributed to Level's{' '}
+              <b className="about-text__description-bold">
+                internal tooling application
+              </b>{' '}
+              (Admin app) and the{' '}
+              <b className="about-text__description-bold">
+                employer-facing dashboard
+              </b>{' '}
+              (Employer Dashboard). Additionally, my interest in{' '}
+              <b className="about-text__description-bold">design systems</b> has
+              led me to make valuable contributions to Level’s{' '}
+              <b className="about-text__description-bold">component library</b>.
             </div>
             <div className="about-text__personal">
               Outside of work you'll find me spending quality time with friends
